@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "MaskAdBlock",
+  "description": "Hides the use of AdBlock",
+  "version": "1.0",
+  "icons": {
+    "64": "mask-64.png", 
+    "128": "mask-128.png"
+  },
+
+  "background": { 
+    "page": "background.html"
+  },
+
+  "permissions": [ 
+    "activeTab",
+    "contentSettings"
+  ]
+}
