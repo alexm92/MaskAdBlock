@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Mask AdBlock",
-  "description": "Hides the use of AdBlock",
+  "description": "Hides the use of AdBlock on 990.ro",
   "version": "1.0",
   "icons": {
     "64": "img/mask-64.png", 
