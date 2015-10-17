@@ -12,7 +12,12 @@
   "background": { 
     "page": "background.html"
   },
-
+  "content_scripts": [
+    {
+      "matches": ["*://*.990.ro/*"],
+      "js": ["content_script.js"]
+    }
+  ],
   "permissions": [ 
     "activeTab",
     "contentSettings"
